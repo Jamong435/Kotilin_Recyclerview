@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+    <!--    클릭리스너이용-->
+    <Button
+        android:id="@+id/clickbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="gotomain" />
+
+    <!--    onclick속성 이용-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:backgroundTint="#ff7777"
+        android:onClick="clickExit"/>
+
+
+</RelativeLayout>
